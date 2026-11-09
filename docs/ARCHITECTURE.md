@@ -1,6 +1,6 @@
 # Architecture
 
-**Scope** One corridor: China → Korea. One vertical: 1688 K-beauty/accessories sellers. One wedge: landed cost + 30-day credit.
+**Scope** Global architecture, corridor-config driven. First corridor: China → Korea. First vertical: 1688 K-beauty/accessories sellers. Wedge: landed cost + 30-day credit.
 
 ---
 
@@ -9,7 +9,7 @@
 1. **Payments are a partner; we own the operating layer.** The rail is a commodity (XTransfer 0.4% + FX, banks, VASPs). Documents, customs, tax, supplier trust, and credit are ours.
 2. **Invisible crypto.** The seller sees KRW; the factory sees CNY. USDC exists only inside the offshore treasury.
 3. **Document-bound money.** Every payment carries a document hash. No document, no payment.
-4. **The Korean entity never touches crypto.** KR OpCo is a trade agency/importer of record; TreasuryCo is the offshore settlement entity.
+4. **The local operating entity never touches crypto.** In the first corridor, KR OpCo is a trade agency/importer of record; TreasuryCo is the offshore settlement entity.
 5. **Client funds are segregated.** A PG/escrow partner holds customer money; the platform instructs, but does not custody.
 
 ---
@@ -118,7 +118,7 @@ In the **agency model**, the seller is the importer of record and pays duty/VAT 
 
 ### 3.4 Why stablecoins are the enabler
 
-A traditional trade agency needs a pre-funded bank account, a correspondent bank, and 3–5 days of settlement in every corridor. Trade OS uses one global USDC treasury:
+A traditional trade agency needs a pre-funded bank account, a correspondent bank, and 3–5 days of settlement in every corridor. Waybill uses one global USDC treasury:
 
 - **One balance, many corridors.** TreasuryCo holds USDC and pays local partners in CNY/VND/MXN.
 - **24/7 settlement.** No bank cut-off, no weekend gap.
@@ -285,4 +285,4 @@ Korea → China is the first config. Vietnam, Mexico, Indonesia, and Turkey are 
 
 ---
 
-**KR 요약** — 한국 법인(KR OpCo)은 무역대행/수입자로서 원화 수금·통관·세금계산서를 담당하고, 해외 TreasuryCo만 USDC를 보유한다. 결제는 파트너, 문서·통관·세무·신용은 우리가 소유한다.
+**KR 요약** — 첫 corridor에서 한국 법인(KR OpCo)은 무역대행/수입자로서 원화 수금·통관·세금계산서를 담당하고, 해외 TreasuryCo만 USDC를 보유한다. 동일한 구조를 다른 국가에서는 현지 법인 + 글로벌 TreasuryCo로 복제한다. 결제는 파트너, 문서·통관·세무·신용은 우리가 소유한다.

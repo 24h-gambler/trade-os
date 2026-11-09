@@ -1,6 +1,6 @@
 # Go-to-Market
 
-**Beachhead** 1688 K-beauty/accessories sellers in Korea, importing from Guangzhou/Yiwu.
+**Beachhead** 1688 K-beauty/accessories sellers in Korea, importing from Guangzhou/Yiwu. Korea → China is the first corridor; the architecture is corridor-config driven.
 
 **Wedge** Landed-cost checkout + 30-day credit.
 

@@ -1,10 +1,10 @@
-# Trade OS
+# Waybill
 
-**The settlement and working-capital OS for Korea-origin cross-border trade.**
+**The settlement and working-capital OS for global SME trade.**
 
-> A Korean seller uploads a factory invoice, sees the true landed cost, pays in one tap, and gets customs/tax documents plus 30-day credit. The factory receives local currency. Stablecoins are invisible plumbing.
+> Any SME importer uploads a factory invoice, sees the true landed cost, pays in one tap, and gets customs/tax documents plus 30-day credit. The factory receives local currency. Stablecoins are invisible plumbing. We start with Korea → China.
 
-**Two-line summary** Trade OS is the settlement and working-capital OS for Korea-origin cross-border trade, starting with 1688 sellers. Stablecoin rails make it globally replicable: one treasury, 24/7 settlement, and local payout in any corridor — without correspondent banking.
+**Two-line summary** Waybill is the settlement and working-capital OS for global SME trade. Stablecoin rails make it globally replicable: one treasury, 24/7 settlement, and local payout in any corridor — starting with Korea → China, then Vietnam, Mexico, Indonesia, and beyond.
 
 ## The problem
 
@@ -18,7 +18,7 @@ The unsolved parts are:
 
 ## The solution
 
-Trade OS is the operating layer that binds five things into one ledger:
+Waybill is the operating layer that binds five things into one ledger:
 
 1. **Landed-cost checkout** — PI upload → duty/VAT/FTA/logistics/credit.
 2. **One-tap payment** — KRW → CNY/VND/MXN through licensed partners.
@@ -63,7 +63,7 @@ This is the YC crypto problem: not a token, but the invisible rail that lets rea
 
 ## Status
 
-Pre-seed. Architecture v1.0. One corridor: China → Korea. One vertical: 1688 K-beauty/accessories sellers. One wedge: landed cost + 30-day credit.
+Pre-seed. Architecture v1.0. First corridor: China → Korea. First vertical: 1688 K-beauty/accessories sellers. Wedge: landed cost + 30-day credit. The architecture is corridor-config driven and globally replicable.
 
 ## Principles
 
@@ -75,4 +75,4 @@ Pre-seed. Architecture v1.0. One corridor: China → Korea. One vertical: 1688 K
 
 ---
 
-**KR 두 줄 요약** — Trade OS는 한국 셀러의 1688 사입 대금을 랜딩 코스트·통관·세무·30일 외상까지 한 원장에서 처리하는 B2B 무역 정산 OS다. 스테이블코인 기반의 글로벌 정산 레일 덕분에, 한국-중국을 시작으로 전 세계 어느 corridor에서도 24/7 즉시 정산이 가능하다.
+**KR 두 줄 요약** — Waybill은 전 세계 SME 수입업자의 사입 대금을 랜딩 코스트·통관·세무·30일 외상까지 한 원장에서 처리하는 B2B 무역 정산 OS다. 스테이블코인 기반의 글로벌 정산 레일 덕분에, 한국-중국을 첫 corridor로 시작해 전 세계 어느 corridor에서도 24/7 즉시 정산이 가능하다.

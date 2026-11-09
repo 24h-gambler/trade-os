@@ -1,6 +1,6 @@
 # Product
 
-**One-liner** A Korean seller uploads a factory invoice, sees the landed cost, pays in one tap, and gets customs/tax documents plus 30-day credit. The factory receives local currency.
+**One-liner** An SME importer uploads a factory invoice, sees the landed cost, pays in one tap, and gets customs/tax documents plus 30-day credit. The factory receives local currency. We start with Korea → China.
 
 ---
 
@@ -10,11 +10,13 @@
 
 | Dimension | Definition |
 |---|---|
-| Firmographics | Korean LLC, $1–10M annual GMV, imports $500k–5M/year from China/Vietnam, 5–50 employees |
+| Firmographics | First market: Korean LLC, $1–10M annual GMV, imports $500k–5M/year from China/Vietnam, 5–50 employees. Expansion: any SME importer with the same profile. |
 | Buying behavior | Buys from 1688 or a factory directly; uses a payment agency or trade agency; 10–30 payments/month |
 | Buyer | Owner or CFO. No procurement team; the owner handles payments and customs |
 | Trigger | B2B buyer demands a tax invoice; Amazon/Coupang expansion; bank loan requires documents; agency failure; volume outgrows manual processing |
 | Anti-ICP | Hobby sellers; sellers whose margin depends on tax evasion; large importers with bank relationships and cheap credit |
+
+**Expansion:** any SME importer in Vietnam, Mexico, Indonesia, or Turkey — same architecture, new corridor config and local partners.
 
 ### 1.2 Why now for the customer
 
@@ -171,4 +173,4 @@ Full plan: [GTM.md](GTM.md).
 
 ---
 
-**KR 요약** — 고객은 1688에서 사입하는 중형 한국 셀러다. 이들은 결제대행/무역대행에 2~11%를 내고, 랜딩 코스트·서류·신용을 한 곳에서 해결하지 못한다. Trade OS는 랜딩 코스트 체크아웃, 결제, 통관·세무, 공급사 신뢰, 30일 외상을 한 원장에 묶는다. 스테이블코인 글로벌 정산 레일 덕분에 동일한 아키텍처를 베트남·멕시코·인도네시아·터키로 복제할 수 있다.
+**KR 요약** — 첫 시장은 1688에서 사입하는 중형 한국 셀러다. 이들은 결제대행/무역대행에 2~11%를 내고, 랜딩 코스트·서류·신용을 한 곳에서 해결하지 못한다. Waybill은 랜딩 코스트 체크아웃, 결제, 통관·세무, 공급사 신뢰, 30일 외상을 한 원장에 묶고, 동일한 아키텍처를 전 세계 SME 수입 corridor로 복제한다.

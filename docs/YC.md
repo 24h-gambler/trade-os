@@ -1,26 +1,28 @@
 # YC Application Narrative
 
-**Company** Trade OS  
-**One-liner** The settlement and working-capital OS for Korea-origin cross-border trade.  
+**Company** Waybill  
+**One-liner** The settlement and working-capital OS for global SME trade, starting with Korea → China.  
 **RFS** The Best Time to Build in Crypto (invisible stablecoin B2B rails).
 
-**Two-line summary** Trade OS is the settlement and working-capital OS for Korea-origin cross-border trade, starting with 1688 sellers. Stablecoin rails make it globally replicable: one treasury, 24/7 settlement, and local payout in any corridor — without correspondent banking.
+**Two-line summary** Waybill is the settlement and working-capital OS for global SME trade. Stablecoin rails make it globally replicable: one treasury, 24/7 settlement, and local payout in any corridor — starting with Korea → China, then Vietnam, Mexico, Indonesia, and beyond.
 
 ---
 
 ## 1. What are you building?
 
-A Korean seller uploads a factory invoice (PI) in our app. We show the **true landed cost** — goods, FX, duty, VAT, FTA, logistics, inspection, and credit. The seller pays in KRW in one tap. The Chinese factory receives CNY. We generate the import declaration, tax invoice, and VAT refund documents, and extend 30/60-day credit to the seller.
+An SME importer uploads a factory invoice (PI) in our app. We show the **true landed cost** — goods, FX, duty, VAT, FTA, logistics, inspection, and credit. The seller pays in local currency in one tap, and the factory receives local currency. We generate the import declaration, tax invoice, and VAT refund documents, and extend 30/60-day credit to the seller.
 
-The customer never sees crypto. The factory never sees crypto. The Korean entity never touches crypto. Stablecoins settle inside a licensed offshore treasury.
+We start with Korean sellers buying from Chinese factories: KRW → CNY, Korea customs, Korean tax invoices.
 
-**In one sentence:** Stripe for Korea-origin trade — but the product is not the payment. The product is the landed cost, the documents, and the credit.
+The customer never sees crypto. The factory never sees crypto. The local operating entity never touches crypto. Stablecoins settle inside a licensed offshore treasury.
+
+**In one sentence:** Stripe for global SME trade, starting with Korea → China — but the product is not the payment. The product is the landed cost, the documents, and the credit.
 
 ---
 
 ## 2. The problem
 
-Korean SME importers buy from Chinese factories through a fragmented, opaque bundle:
+The first market is Korean SME importers buying from Chinese factories through a fragmented, opaque bundle. The same pattern repeats in every SME import corridor:
 
 | Path | Cost | Time | Documents | Credit |
 |---|---:|---|---|---|
@@ -130,6 +132,7 @@ This is why the company can be global from day one, and why the payment leg is a
 - $1B GMV ≈ **$15–20M revenue**.
 - $100M ARR requires **$5–6B GMV** or 50%+ credit penetration.
 - Expansion: Japan, Taiwan, Singapore, Vietnam, Mexico → 3x the pool.
+- Global SME trade is much larger; Korea → China is the wedge, not the ceiling.
 
 The market is not "all cross-border payments." It is the **small-ticket, document-heavy, credit-starved** segment that banks and payment rails do not serve.
 
@@ -217,7 +220,7 @@ Unit economics (example): $32k monthly GMV per customer; payment GM $320; credit
 
 ## 13. Ten-slide narrative
 
-1. **Title** — Stripe for Korea-origin trade. The product is landed cost, documents, and credit.
+1. **Title** — Stripe for global SME trade, starting with Korea → China. The product is landed cost, documents, and credit.
 2. **Problem** — 6–11% opaque bundle; 30–60 day cash gap; no credit.
 3. **Why now** — FX law registration (2026-12-03), payment commoditization, 1688 habit, margin pressure.
 4. **Solution** — landed-cost checkout + one-tap payment + customs/tax + 30-day credit.
@@ -230,4 +233,4 @@ Unit economics (example): $32k monthly GMV per customer; payment GM $320; credit
 
 ---
 
-**KR 요약** — 한국 셀러의 1688 사입 대금을 랜딩 코스트·통관·세무·30일 외상까지 한 원장에서 처리하는 Trade OS. 결제는 XTransfer/은행/VASP 파트너, 우리는 문서·통관·신용을 소유한다. 크립토는 백엔드 정산에만 존재한다.
+**KR 요약** — 첫 시장은 한국 셀러의 1688 사입 대금이다. Waybill은 이를 랜딩 코스트·통관·세무·30일 외상까지 한 원장에서 처리하고, 동일한 아키텍처를 전 세계 SME 수입 corridor로 복제한다. 결제는 XTransfer/은행/VASP 파트너, 우리는 문서·통관·신용을 소유한다. 크립토는 백엔드 정산에만 존재한다.

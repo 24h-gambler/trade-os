@@ -1,13 +1,13 @@
 # Implementation Plan
 
-**Goal** Ship a concierge MVP in 4 weeks and a production MVP in 12 weeks for one corridor (China → Korea) and one vertical (1688 K-beauty/accessories sellers).
+**Goal** Ship a concierge MVP in 4 weeks and a production MVP in 12 weeks for the first corridor (China → Korea) and first vertical (1688 K-beauty/accessories sellers). The codebase is corridor-config driven: new corridors are config + partners, not a rewrite.
 
 ---
 
 ## 1. Repository layout
 
 ```
-trade-os/
+waybill/
   apps/
     web/            # seller PWA (Next.js)
     supplier/       # supplier portal (Next.js)
