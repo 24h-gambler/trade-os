@@ -1,10 +1,10 @@
-# Waybill — Korean Summary (번역 요약)
+# Trade OS — Korean Summary (번역 요약)
 
 > This is a translation for Korean readers. The English documents are canonical.
 
 ## 두 줄 요약
 
-Waybill은 전 세계 SME 수입업자의 사입 대금을 랜딩 코스트·통관·세무·30일 외상까지 한 원장에서 처리하는 B2B 무역 정산 OS다. 스테이블코인 기반의 글로벌 정산 레일 덕분에, 한국-중국을 첫 corridor로 시작해 전 세계 어느 corridor에서도 24/7 즉시 정산이 가능하다.
+Trade OS는 전 세계 SME 수입업자의 사입 대금을 랜딩 코스트·통관·세무·30일 외상까지 한 원장에서 처리하는 B2B 무역 정산 OS다. 스테이블코인 기반의 글로벌 정산 레일 덕분에, 한국-중국을 첫 corridor로 시작해 전 세계 어느 corridor에서도 24/7 즉시 정산이 가능하다.
 
 ## 한 줄
 

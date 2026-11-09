@@ -118,7 +118,7 @@ In the **agency model**, the seller is the importer of record and pays duty/VAT 
 
 ### 3.4 Why stablecoins are the enabler
 
-A traditional trade agency needs a pre-funded bank account, a correspondent bank, and 3–5 days of settlement in every corridor. Waybill uses one global USDC treasury:
+A traditional trade agency needs a pre-funded bank account, a correspondent bank, and 3–5 days of settlement in every corridor. Trade OS uses one global USDC treasury:
 
 - **One balance, many corridors.** TreasuryCo holds USDC and pays local partners in CNY/VND/MXN.
 - **24/7 settlement.** No bank cut-off, no weekend gap.

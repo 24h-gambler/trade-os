@@ -7,7 +7,7 @@
 ## 1. Repository layout
 
 ```
-waybill/
+trade-os/
   apps/
     web/            # seller PWA (Next.js)
     supplier/       # supplier portal (Next.js)

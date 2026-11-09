@@ -1,10 +1,10 @@
-# Waybill
+# Trade OS
 
 **The settlement and working-capital OS for global SME trade.**
 
 > Any SME importer uploads a factory invoice, sees the true landed cost, pays in one tap, and gets customs/tax documents plus 30-day credit. The factory receives local currency. Stablecoins are invisible plumbing. We start with Korea → China.
 
-**Two-line summary** Waybill is the settlement and working-capital OS for global SME trade. Stablecoin rails make it globally replicable: one treasury, 24/7 settlement, and local payout in any corridor — starting with Korea → China, then Vietnam, Mexico, Indonesia, and beyond.
+**Two-line summary** Trade OS is the settlement and working-capital OS for global SME trade. Stablecoin rails make it globally replicable: one treasury, 24/7 settlement, and local payout in any corridor — starting with Korea → China, then Vietnam, Mexico, Indonesia, and beyond.
 
 ## The problem
 
@@ -18,7 +18,7 @@ The unsolved parts are:
 
 ## The solution
 
-Waybill is the operating layer that binds five things into one ledger:
+Trade OS is the operating layer that binds five things into one ledger:
 
 1. **Landed-cost checkout** — PI upload → duty/VAT/FTA/logistics/credit.
 2. **One-tap payment** — KRW → CNY/VND/MXN through licensed partners.
@@ -52,9 +52,29 @@ This is the YC crypto problem: not a token, but the invisible rail that lets rea
 
 **"The Best Time to Build in Crypto"** — invisible stablecoin rails for real B2B trade, with revenue from day one and a compliance moat. This is not a token project. It is the operational layer that makes stablecoin B2B settlement work for a $50B trade flow, and it is globally replicable corridor by corridor.
 
+## Run the demo
+
+Zero dependencies. Python 3.11+.
+
+```bash
+python app/server.py
+```
+
+Open <http://127.0.0.1:8000>. Enter a $10k PI, see the landed cost, pay, and check the double-entry ledger.
+
+Smoke test:
+
+```bash
+python scripts/smoke_test.py
+```
+
 ## Repository map
 
+- [docs/BLUEPRINT.md](docs/BLUEPRINT.md) — one-page visual blueprint for YC.
 - [docs/YC.md](docs/YC.md) — YC application narrative, RFS mapping, market, ask.
+- [docs/PLAN.md](docs/PLAN.md) — 90-day and 12-month execution plan.
+- [docs/DEMO.md](docs/DEMO.md) — three-minute demo script.
+- [app/](app/) — runnable demo server + UI.
 - [docs/PRODUCT.md](docs/PRODUCT.md) — customer, problem, solution, pricing, competition.
 - [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md) — system architecture, money flow, ledger, legal structure.
 - [docs/IMPLEMENTATION.md](docs/IMPLEMENTATION.md) — build plan, API, data model, sprints.
@@ -75,4 +95,4 @@ Pre-seed. Architecture v1.0. First corridor: China → Korea. First vertical: 16
 
 ---
 
-**KR 두 줄 요약** — Waybill은 전 세계 SME 수입업자의 사입 대금을 랜딩 코스트·통관·세무·30일 외상까지 한 원장에서 처리하는 B2B 무역 정산 OS다. 스테이블코인 기반의 글로벌 정산 레일 덕분에, 한국-중국을 첫 corridor로 시작해 전 세계 어느 corridor에서도 24/7 즉시 정산이 가능하다.
+**KR 두 줄 요약** — Trade OS는 전 세계 SME 수입업자의 사입 대금을 랜딩 코스트·통관·세무·30일 외상까지 한 원장에서 처리하는 B2B 무역 정산 OS다. 스테이블코인 기반의 글로벌 정산 레일 덕분에, 한국-중국을 첫 corridor로 시작해 전 세계 어느 corridor에서도 24/7 즉시 정산이 가능하다.

@@ -1,10 +1,10 @@
 # YC Application Narrative
 
-**Company** Waybill  
+**Company** Trade OS  
 **One-liner** The settlement and working-capital OS for global SME trade, starting with Korea → China.  
 **RFS** The Best Time to Build in Crypto (invisible stablecoin B2B rails).
 
-**Two-line summary** Waybill is the settlement and working-capital OS for global SME trade. Stablecoin rails make it globally replicable: one treasury, 24/7 settlement, and local payout in any corridor — starting with Korea → China, then Vietnam, Mexico, Indonesia, and beyond.
+**Two-line summary** Trade OS is the settlement and working-capital OS for global SME trade. Stablecoin rails make it globally replicable: one treasury, 24/7 settlement, and local payout in any corridor — starting with Korea → China, then Vietnam, Mexico, Indonesia, and beyond.
 
 ---
 
@@ -233,4 +233,4 @@ Unit economics (example): $32k monthly GMV per customer; payment GM $320; credit
 
 ---
 
-**KR 요약** — 첫 시장은 한국 셀러의 1688 사입 대금이다. Waybill은 이를 랜딩 코스트·통관·세무·30일 외상까지 한 원장에서 처리하고, 동일한 아키텍처를 전 세계 SME 수입 corridor로 복제한다. 결제는 XTransfer/은행/VASP 파트너, 우리는 문서·통관·신용을 소유한다. 크립토는 백엔드 정산에만 존재한다.
+**KR 요약** — 첫 시장은 한국 셀러의 1688 사입 대금이다. Trade OS는 이를 랜딩 코스트·통관·세무·30일 외상까지 한 원장에서 처리하고, 동일한 아키텍처를 전 세계 SME 수입 corridor로 복제한다. 결제는 XTransfer/은행/VASP 파트너, 우리는 문서·통관·신용을 소유한다. 크립토는 백엔드 정산에만 존재한다.

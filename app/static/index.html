@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Trade OS — Landed Cost Demo</title>
+  <link rel="stylesheet" href="/static/styles.css" />
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand">
+      <span class="logo">T</span>
+      <div>
+        <h1>Trade OS</h1>
+        <p>Landed cost → payment → ledger</p>
+      </div>
+    </div>
+    <span class="badge">DEMO</span>
+  </header>
+
+  <main class="layout">
+    <section class="card">
+      <h2>1. Factory invoice</h2>
+      <p class="muted">Enter a PI. The server calculates the Korean landed cost.</p>
+      <form id="quote-form">
+        <div class="grid">
+          <label>Goods (USD)
+            <input id="goods" type="number" min="1" step="0.01" value="10000" />
+          </label>
+          <label>Freight / insurance (USD)
+            <input id="freight" type="number" min="0" step="0.01" value="500" />
+          </label>
+          <label>FX (KRW per USD)
+            <input id="fx" type="number" min="1" step="0.01" value="1350" />
+          </label>
+          <label>Duty (%)
+            <input id="duty" type="number" min="0" step="0.01" value="8" />
+          </label>
+          <label>VAT (%)
+            <input id="vat" type="number" min="0" step="0.01" value="10" />
+          </label>
+          <label>Platform fee (%)
+            <input id="fee" type="number" min="0" step="0.01" value="1.8" />
+          </label>
+          <label>Credit cost (%)
+            <input id="credit" type="number" min="0" step="0.01" value="1.5" />
+          </label>
+        </div>
+        <button type="submit" class="primary">Calculate landed cost</button>
+      </form>
+      <p id="error" class="error" hidden></p>
+    </section>
+
+    <section class="card" id="quote-card">
+      <h2>2. Landed cost</h2>
+      <div id="quote-empty" class="empty">No quote yet.</div>
+      <div id="quote-result" hidden>
+        <div class="total">
+          <span>Total KRW</span>
+          <strong id="total">—</strong>
+        </div>
+        <table class="breakdown">
+          <tbody id="breakdown"></tbody>
+        </table>
+        <button id="pay" class="primary">Pay in KRW</button>
+        <p class="muted small">Demo: the payment and payout are simulated. No real money moves.</p>
+      </div>
+    </section>
+  </main>
+
+  <section class="card ledger-card">
+    <div class="ledger-head">
+      <div>
+        <h2>3. Ledger</h2>
+        <p class="muted">Double-entry. Every payment must balance.</p>
+      </div>
+      <div id="balance" class="balance">—</div>
+    </div>
+    <div id="payment-status" class="status" hidden></div>
+    <div class="ledger-grid">
+      <div>
+        <h3>Accounts</h3>
+        <table class="ledger">
+          <thead><tr><th>Account</th><th class="num">Debit</th><th class="num">Credit</th></tr></thead>
+          <tbody id="accounts"></tbody>
+        </table>
+      </div>
+      <div>
+        <h3>Journal entries</h3>
+        <div id="entries" class="entries"></div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <span>Trade OS demo · zero dependencies · SQLite</span>
+    <span>Not production. No auth. No real funds.</span>
+  </footer>
+
+  <script src="/static/app.js"></script>
+</body>
+</html>
