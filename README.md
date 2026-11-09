@@ -8,7 +8,7 @@
 
 ## The problem
 
-Korean SME importers buy from Chinese factories through a fragmented bundle: 1688 payment agencies (2–5%), trade agencies (6–11%), banks (slow, no credit), and gray brokers (illegal). Payment alone is commoditized — XTransfer already moves money at 0.4% + FX.
+The first market is Korean SME importers buying from Chinese factories through a fragmented bundle: 1688 payment agencies (2–5%), trade agencies (6–11%), banks (slow, no credit), and gray brokers (illegal). The same pattern repeats in every SME import corridor. Payment alone is commoditized — XTransfer already moves money at 0.4% + FX.
 
 The unsolved parts are:
 - **Landed-cost certainty**: duty, VAT, FTA, logistics, and credit are invisible until after the purchase.
