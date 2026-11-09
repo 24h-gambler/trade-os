@@ -4,6 +4,8 @@
 
 > A Korean seller uploads a factory invoice, sees the true landed cost, pays in one tap, and gets customs/tax documents plus 30-day credit. The factory receives local currency. Stablecoins are invisible plumbing.
 
+**Two-line summary** Trade OS is the settlement and working-capital OS for Korea-origin cross-border trade, starting with 1688 sellers. Stablecoin rails make it globally replicable: one treasury, 24/7 settlement, and local payout in any corridor — without correspondent banking.
+
 ## The problem
 
 Korean SME importers buy from Chinese factories through a fragmented bundle: 1688 payment agencies (2–5%), trade agencies (6–11%), banks (slow, no credit), and gray brokers (illegal). Payment alone is commoditized — XTransfer already moves money at 0.4% + FX.
@@ -34,9 +36,21 @@ The customer never sees `USDC`, `wallet`, or `gas`. The factory never sees crypt
 - **Korean e-commerce margin compression** creates demand for working capital.
 - **AI agents** will procure and pay programmatically; the rail must be API-native.
 
+## Why crypto, and why global
+
+Stablecoins are not a feature. They are the reason this model works at global scale.
+
+- **One global treasury, not a bank account per corridor.** TreasuryCo holds USDC and pays local partners in CNY, VND, MXN, or any other currency. A traditional trade agency would need pre-funded bank accounts, correspondent banking, and 3–5 day wires in every country.
+- **24/7 settlement.** Factories get paid on weekends and holidays; sellers do not wait for bank cut-offs.
+- **Programmable money.** Escrow, milestone release, and supplier early payment are code, not manual instructions.
+- **Global from day one.** The architecture is corridor-config driven: currency, partners, tax rules, and documents are data, not code. Korea → China is the beachhead, not the ceiling. The same stack replicates to Vietnam, Mexico, Indonesia, Turkey, and beyond.
+- **Invisible to the customer.** The seller sees KRW; the factory sees local currency. No wallet, no gas, no seed phrase.
+
+This is the YC crypto problem: not a token, but the invisible rail that lets real B2B trade settle globally in real time.
+
 ## YC RFS fit
 
-**"The Best Time to Build in Crypto"** — invisible stablecoin rails for real B2B trade, with revenue from day one and a compliance moat. This is not a token project. It is the operational layer that makes stablecoin B2B settlement work for a $50B trade flow.
+**"The Best Time to Build in Crypto"** — invisible stablecoin rails for real B2B trade, with revenue from day one and a compliance moat. This is not a token project. It is the operational layer that makes stablecoin B2B settlement work for a $50B trade flow, and it is globally replicable corridor by corridor.
 
 ## Repository map
 
@@ -61,4 +75,4 @@ Pre-seed. Architecture v1.0. One corridor: China → Korea. One vertical: 1688 K
 
 ---
 
-**KR 요약** — 한국 셀러가 1688 공장 PI를 올리면 랜딩 코스트를 확인하고, 1탭으로 결제·통관·세무·30일 외상까지 끝내는 B2B 무역 정산 OS. 결제는 파트너, 우리는 문서·통관·신용을 소유한다. 크립토는 백엔드 정산에만 존재한다.
+**KR 두 줄 요약** — Trade OS는 한국 셀러의 1688 사입 대금을 랜딩 코스트·통관·세무·30일 외상까지 한 원장에서 처리하는 B2B 무역 정산 OS다. 스테이블코인 기반의 글로벌 정산 레일 덕분에, 한국-중국을 시작으로 전 세계 어느 corridor에서도 24/7 즉시 정산이 가능하다.

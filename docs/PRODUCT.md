@@ -163,4 +163,12 @@ Full plan: [GTM.md](GTM.md).
 
 ---
 
-**KR 요약** — 고객은 1688에서 사입하는 중형 한국 셀러다. 이들은 결제대행/무역대행에 2~11%를 내고, 랜딩 코스트·서류·신용을 한 곳에서 해결하지 못한다. Trade OS는 랜딩 코스트 체크아웃, 결제, 통관·세무, 공급사 신뢰, 30일 외상을 한 원장에 묶는다.
+## 10. Why crypto, and why global
+
+- **Crypto is the enabler, not the product.** Stablecoins give us one global treasury, 24/7 settlement, and programmable escrow. Without them, the model requires pre-funded bank accounts and correspondent banking in every corridor.
+- **Global from day one.** The architecture is corridor-config driven. Korea → China is the first corridor; Vietnam, Mexico, Indonesia, and Turkey are configuration + partners, not a rewrite.
+- **Invisible to the user.** The seller sees KRW; the factory sees local currency. No wallet, no gas, no seed phrase.
+
+---
+
+**KR 요약** — 고객은 1688에서 사입하는 중형 한국 셀러다. 이들은 결제대행/무역대행에 2~11%를 내고, 랜딩 코스트·서류·신용을 한 곳에서 해결하지 못한다. Trade OS는 랜딩 코스트 체크아웃, 결제, 통관·세무, 공급사 신뢰, 30일 외상을 한 원장에 묶는다. 스테이블코인 글로벌 정산 레일 덕분에 동일한 아키텍처를 베트남·멕시코·인도네시아·터키로 복제할 수 있다.

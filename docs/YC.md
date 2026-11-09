@@ -4,6 +4,8 @@
 **One-liner** The settlement and working-capital OS for Korea-origin cross-border trade.  
 **RFS** The Best Time to Build in Crypto (invisible stablecoin B2B rails).
 
+**Two-line summary** Trade OS is the settlement and working-capital OS for Korea-origin cross-border trade, starting with 1688 sellers. Stablecoin rails make it globally replicable: one treasury, 24/7 settlement, and local payout in any corridor — without correspondent banking.
+
 ---
 
 ## 1. What are you building?
@@ -95,6 +97,21 @@ KR OpCo → import declaration → customs → tax invoice
 4. **Margin pressure.** Korean e-commerce margins are thin; 30/60-day credit is a survival tool, not a luxury.
 5. **Agentic commerce.** AI agents will read PIs, compare landed costs, and pay suppliers. The rail must be API-native.
 
+### 5.1 Why stablecoins are the enabler
+
+Without stablecoins, this business is a traditional trade agency with bank wires:
+- Pre-funded bank accounts in every corridor.
+- Correspondent banking, 3–5 day settlement, 1–3% FX.
+- Manual escrow and supplier payments.
+
+With stablecoins:
+- **One global treasury.** TreasuryCo holds USDC and pays local partners in any currency.
+- **24/7 settlement.** Factories get paid on weekends and holidays.
+- **Programmable escrow.** Milestone release and early payment are code.
+- **Global reach.** The same rail works in China, Vietnam, Mexico, Indonesia, and beyond.
+
+This is why the company can be global from day one, and why the payment leg is a commodity while the operating layer is the moat.
+
 ---
 
 ## 6. Why us
@@ -115,6 +132,19 @@ KR OpCo → import declaration → customs → tax invoice
 - Expansion: Japan, Taiwan, Singapore, Vietnam, Mexico → 3x the pool.
 
 The market is not "all cross-border payments." It is the **small-ticket, document-heavy, credit-starved** segment that banks and payment rails do not serve.
+
+### 7.1 Global from day one
+
+The architecture is corridor-config driven: currency, partners, tax rules, documents, and cut-off times are data, not code.
+
+| Corridor | When | Why |
+|---|---|---|
+| China → Korea | Phase 0–1 | deepest supply base, highest pain |
+| Vietnam → Korea | Phase 2 | Korean-owned factories, formal trade |
+| Mexico → US/Korea | Phase 3 | nearshoring, USMCA |
+| Indonesia/Turkey → Korea | Phase 4 | cost base diversification |
+
+Korea → China is the beachhead. The same stack can serve any SME importer/exporter pair because the stablecoin rail and the document/credit engine are jurisdiction-agnostic; only the corridor config and local partners change.
 
 ---
 

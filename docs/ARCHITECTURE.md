@@ -116,6 +116,17 @@ Assumptions: goods $10,000, FX 1,350 KRW/USD, fee 1.8%, duty 8%, VAT 10% (simpli
 
 In the **agency model**, the seller is the importer of record and pays duty/VAT directly; the ledger only handles goods + fee. The full flow applies to the **principal model**.
 
+### 3.4 Why stablecoins are the enabler
+
+A traditional trade agency needs a pre-funded bank account, a correspondent bank, and 3–5 days of settlement in every corridor. Trade OS uses one global USDC treasury:
+
+- **One balance, many corridors.** TreasuryCo holds USDC and pays local partners in CNY/VND/MXN.
+- **24/7 settlement.** No bank cut-off, no weekend gap.
+- **Programmable escrow.** Milestone release and supplier early payment are code.
+- **Lower prefunding.** The float is one global balance, not dozens of local accounts.
+
+This is why the model can be global from day one. The rail is a commodity; the operating layer — documents, customs, tax, credit — is the moat.
+
 ---
 
 ## 4. Legal structure
@@ -211,6 +222,7 @@ Start agency: the seller is the importer, the platform prepares documents and pa
 | `ledger_entry` | id, payment_id, account, debit, credit, currency |
 | `partner_txn` | id, partner, type, amount, currency, status, ref |
 | `case` | id, type, subject_id, assignee, status, sla |
+| `corridor_config` | id, currency, partners, docs, tax_rules, cutoff |
 
 ### 6.2 API
 
@@ -248,6 +260,20 @@ Start agency: the seller is the importer, the platform prepares documents and pa
 ---
 
 ## 8. Roadmap
+
+### 8.1 Global by design
+
+The platform is multi-corridor by construction:
+
+| Config | What changes | What stays |
+|---|---|---|
+| Currency | KRW, CNY, VND, MXN | ledger, quote engine |
+| Partners | bank/PG, MSO, local PSP | adapter interface |
+| Tax | duty, VAT, FTA | customs engine |
+| Documents | invoice, BL, declaration | document engine |
+| Cut-off | local banking hours | workflow engine |
+
+Korea → China is the first config. Vietnam, Mexico, Indonesia, and Turkey are new configs + partners, not a rewrite.
 
 | Phase | Timeline | Scope | Target |
 |---|---|---|---|
